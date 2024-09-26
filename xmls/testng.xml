@@ -2,7 +2,8 @@
 <suite name="Login Automation Suite">
     <test name="Login Tests">
         <classes>
-            <class name="com.example.tests.LoginTest" />
+            <class name="com.example.tests.api.APITest" />
+            <class name="com.example.tests.web.AddToCartTest" />
         </classes>
     </test>
 </suite>

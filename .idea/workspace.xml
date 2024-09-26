@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="43433cd0-5566-4b65-95c8-503afc58a5ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/loginautomation/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pages/CartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/pages/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/utils/ExtentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/loginautomation/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/AddToCartTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xmls/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/api/APITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/api/APITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/tests/web/AddToCartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/tests/web/AddToCartTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xmls/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmls/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -69,7 +57,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.4218391&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.APITest.verifyStatusCodeOfGetRequest">
+  <component name="RunManager" selected="TestNG./Users/shubhis/IdeaProjects/LoginAutomation/xmls/testng.xml">
     <configuration name="APITest.verifyStatusCodeOfGetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LoginAutomation" />
       <extension name="coverage">
@@ -92,28 +80,11 @@
       <module name="LoginAutomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.AddToCartTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AddToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LoginAutomation" />
-      <extension name="coverage">
-        <pattern>
           <option name="PATTERN" value="com.example.tests.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.example.tests" />
+      <option name="PACKAGE_NAME" value="com.example.tests.web" />
       <option name="MAIN_CLASS_NAME" value="com.example.tests.web.AddToCartTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
@@ -174,6 +145,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/shubhis/IdeaProjects/LoginAutomation/xmls/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LoginAutomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmls/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="testng.xml" type="TestNG">
       <shortenClasspath name="NONE" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -201,16 +182,16 @@
       <item itemvalue="TestNG.APITest.verifyStatusCodeOfGetRequest" />
       <item itemvalue="TestNG.AddToCartTest" />
       <item itemvalue="TestNG.AddToCartTest (1)" />
-      <item itemvalue="TestNG.AddToCartTest (2)" />
       <item itemvalue="TestNG.AddToCartTest.testAddToCart" />
+      <item itemvalue="TestNG./Users/shubhis/IdeaProjects/LoginAutomation/xmls/testng.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.APITest.verifyStatusCodeOfGetRequest" />
-        <item itemvalue="TestNG.AddToCartTest (2)" />
-        <item itemvalue="TestNG.AddToCartTest (1)" />
-        <item itemvalue="TestNG.AddToCartTest" />
+        <item itemvalue="TestNG./Users/shubhis/IdeaProjects/LoginAutomation/xmls/testng.xml" />
         <item itemvalue="TestNG.AddToCartTest.testAddToCart" />
+        <item itemvalue="TestNG.AddToCartTest" />
+        <item itemvalue="TestNG.AddToCartTest (1)" />
+        <item itemvalue="TestNG.APITest.verifyStatusCodeOfGetRequest" />
       </list>
     </recent_temporary>
   </component>

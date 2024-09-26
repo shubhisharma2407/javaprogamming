@@ -89,7 +89,10 @@ public class AddToCartTest {
 
         // Add product to cart and navigate to cart
         productsPage.checkWaitForProduct();
+
+
         productsPage.addFirstProductToCart();
+
         productsPage.goToCart();
 
         // Verify product in cart

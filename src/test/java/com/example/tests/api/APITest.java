@@ -21,7 +21,7 @@ public class APITest {
                     .extract()
                     .response();
 
-            // Print the response (optional, for debugging)
+
             System.out.println("Response Body: " + response.asPrettyString());
 
             // Get the status code
